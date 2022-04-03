@@ -143,8 +143,8 @@ class TopMenu extends React.Component {
       <Menu fixed="top" inverted style={{ background: '#1b2540'}}>
         <Container fluid>
           <Menu.Item header>
-            <Image size="small" href="https://www.accordproject.org" src="static/img/logo.png" style={{ marginRight: '1.5em' }} target="_blank" />
-            Template Studio
+            <Image size="small" href="#" src="static/img/logo.png" style={{ marginRight: '1.5em' }} target="_blank" />
+            Contract Station
           </Menu.Item>
           <Menu.Item>
             <Confirm content="Your template has been edited, are you sure you want to load a new one? You can save your current template by using the Export button." confirmButton="I am sure" cancelButton="Cancel" open={this.state.confirm.flag} onCancel={this.handleSelectTemplateAborted} onConfirm={this.handleSelectTemplateConfirmed} />
@@ -152,7 +152,7 @@ class TopMenu extends React.Component {
               style={{ width: '270px' }}
               icon="search"
               className="ui icon fixed"
-              text="Search Template Library"
+              text="Search Contract Library"
               labeled
               button
               search
@@ -191,17 +191,17 @@ class TopMenu extends React.Component {
               <Dropdown.Menu>
                 <ModalAbout />
                 <Header as="h4">Content</Header>
-                <Menu.Item href="https://templates.accordproject.org/" target="_blank">
-                  <Icon name="book" /> Template Library
+                <Menu.Item href="#" target="_blank">
+                  <Icon name="book" /> Contract Library
                 </Menu.Item>
-                <Menu.Item href="https://models.accordproject.org/" target="_blank">
+                <Menu.Item href="#" target="_blank">
                   <Icon name="sitemap" /> Models Library
                 </Menu.Item>
                 <Header as="h4">Documentation</Header>
-                <Menu.Item href="https://docs.accordproject.org/" target="_blank">
+                <Menu.Item href="#" target="_blank">
                   <Icon name="info" /> Documentation
                 </Menu.Item>
-                <Menu.Item href="https://docs.accordproject.org/docs/logic-ergo.html" target="_blank">
+                <Menu.Item href="#" target="_blank">
                   <Icon name="lab" /> Ergo Language Guide
                 </Menu.Item>
               </Dropdown.Menu>

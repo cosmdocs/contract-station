@@ -28,13 +28,13 @@ const ModalAbout = () => (
     <Modal.Content>
       <Modal.Description>
         <Header>Welcome!</Header>
-        <p>This template studio lets you load, edit and test clause or contract templates built with the <a href="https://accordproject.org/" target="_blank" rel="noopener noreferrer">Accord Project</a> technology.</p>
-        <p>It is open-source and under active development. Contributions and bug reports are welcome on <a href="https://github.com/accordproject/template-studio" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+        <p>This template studio lets you load, edit and test clause or contract templates built with the <a href="#" target="_blank" rel="noopener noreferrer">OpenSource</a> technology.</p>
+        <p>It is open-source and under active development. Contributions and bug reports are welcome on <a href="https://github.com/cosmdocs/contract-station" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
       </Modal.Description>
       <Divider />
       <Modal.Description>
         <Header>Getting started</Header>
-        <p>Search a template from the <a href="https://templates.accordproject.org" target="_blank" rel="noopener noreferrer">Accord Project template library</a> (Search box at the top)</p>
+        <p>Search a template from the <a href="#" target="_blank" rel="noopener noreferrer">Accord Project template library</a> (Search box at the top)</p>
         <p>Chose whether to edit the template <b>Text</b>, <b>Model</b>,
         or <b>Logic</b> (Tab on the upper left)</p>
         <p>Edit the <b>Sample</b> in the Text tab and inspect the corresponding <b>Contract Data</b></p>
