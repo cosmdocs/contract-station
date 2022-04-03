@@ -1,0 +1,7 @@
+node_modules
+dist
+build
+semantic
+log
+.DS_Store
+thumbs.db
